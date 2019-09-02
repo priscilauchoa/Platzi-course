@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+
+</head>
+<body>
+    <div id="bg"></div>
+    <div class="box">
+        <img src="./imagem.png">
+        <a href="" id="close">X</a>
+    </div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <style type="text/css">
+    body{
+        background: rgba(140, 218, 192, 0.418);
+    }
+    .modal{
+        position: fixed;
+        top: 1%;
+        left: 30%;
+        color: rgb(134, 107, 233);
+        padding: 10px;
+        background:rgba(109, 109, 207, 0.274);
+        opacity: 0;
+        width: 30%;
+    }
+
+    .modal:target{
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .fechar{
+        text-decoration: none;
+        color: rgb(233, 148, 148);
+    }
+    </style>
+</head>
+<body>
+
+    
+    <a href="#abrir">Abrir Modal</a>
+
+    <div class="modal" id="abrir">
+        <a href="#fechar" class="fechar">X</a>
+        <h2>Título do Modal</h2>
+        <p>Conteúdo do Modal</p>
+    </div>
+
+</body>
+</html>
