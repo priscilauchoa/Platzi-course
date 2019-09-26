@@ -1,0 +1,18 @@
+body {
+    background-color: #013668;
+    font-family: 'EB Garamond', serif;
+    color: #fff;
+  }
+  a {
+    color: #fdb813;
+  }
+
+  .dre {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .my-class img{
+    max-width:100%;
+  }
+  

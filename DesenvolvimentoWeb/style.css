@@ -1,5 +1,7 @@
-*{
+*{  font-family: 'Lato', sans-serif;
     font: 12px sans-serif;
+    text-decoration: none;
+
 }
 
 body{
@@ -11,10 +13,11 @@ body{
 }
 
 h1{
-    font-size: 12px;
+    font-size: 14px;
     
 
 }
+
 
 p{
     color: white;
@@ -30,12 +33,14 @@ p{
     color: white;
     font-weight: bold;
 }
+
 /* seletor de hierarquia - seleciona o nav dentro do header */
 header > nav{
     float: right;
 }
 
 header{
+    display: flex;
     height: 80px;
     margin-top:25px;
 }
@@ -44,10 +49,6 @@ header > nav > a{
     padding: 25px 10px;
     text-decoration: none;
     color: black;
-}
-
-#logo{
-
 }
 
 section{
@@ -62,4 +63,106 @@ section{
 
 section > figure {
     float: left;
+}
+
+
+/* style receitas */
+
+.header-menor{
+    
+    height: 60px;
+    background: #99cc41;
+    margin-top: 0%;
+    width: 100%;
+}
+
+.body-receitas{
+    background-image: none;
+    margin: 0%;
+    
+}
+
+.logo-receitas{
+    width: 60px;
+    text-align: start;
+}
+
+.nav-receitas{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    
+
+}
+
+.img-receitas{
+    padding: 0;
+    height: 210px;
+}
+
+.div-receitas{
+    display: flex;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+    
+}
+
+.receitas{
+    display: block;
+    margin: 0 auto;
+    
+
+}
+
+.div-receitas-alinhamento{
+    width: 333px;
+    height: 230px;
+    
+    
+  
+}
+
+.div-receitas-alinhamento a{
+    color: black;
+  
+}
+
+
+.direita{
+text-align: right;
+margin-left: 50px;
+
+}
+
+.esquerda{
+    text-align: left;
+    margin-right: 50px;
+    }
+    
+
+.botao2{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+
+.div-receitas-alinhamento h1{
+    font-size: 16pt;
+
+}
+
+.mais-sabores{
+    height: 50px;
+    display: block;
+    text-align: center;
+    background-color: #99cc41;
+    
+    
+}
+.mais-sabores p{
+    border-bottom: #f9faf7 solid 2px;
+   
 }
